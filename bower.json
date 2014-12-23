@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "main": "ol.js",
   "ignore": [
+    ".bowerrc",
     ".gitignore",
     "amd-build.json",
     "README.md"
