@@ -1,0 +1,12 @@
+{
+	"name": "ol3-amd",
+	"version": "0.0.2",
+  	"description": "Openlayers 3 build with amd wrapper",
+  	"repository": {
+		"type": "git",
+		"url": "https://github.com/OnroerendErfgoed/beheersplannen.git"
+	},
+  	"devDependencies": {
+    	"openlayers": "~3.1.0"
+  	}
+}

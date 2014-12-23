@@ -9,24 +9,16 @@ The build is done with the new 'task' system in Openlayers:
 ###install dependencies:
 ```
 cd <project dir>
-bower install
-cd ol3
 npm install
 ```
 
 ##how to build:
-```
-cd <project dir>/ol3
-node tasks/build.js ../amd-build.json  ../ol.js
-```
+Custom build is no longer necessary, the build provided with openlayers 3.1.0 can be now used directly
+
 
 ##how to release a new build:
-+ Update ol3 using bower
-+ Update the amd-build.json file
-+ Create a new build
-+ Copy the ol.css from ol3/css to the <project dir> folder if it has changed
++ Update ol3 using npm
++ Copy ol.css from <project dir>/node_modules/openlayers/css/ to the <project dir> folder
++ Copy ol.js and ol-debug.js from <project dir>/node_modules/openlayers/dist/ to the <project dir> folder
 + Push to git
-+ Run 'bower update ol3-amd' in projects using this dependency
-
-##todo:
-+ create separate build scripts for all projects, and set the "exports" parameter in each script with the correct list.
++ Run 'bower update ol3-amd' in the projects that use this dependency
