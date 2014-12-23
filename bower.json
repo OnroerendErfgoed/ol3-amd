@@ -1,0 +1,13 @@
+{
+  "name": "ol3-amdamd-build.json",
+  "description": "Custom Openlayers 3 build with amd wrapper",
+  "version": "0.0.1",
+  "main": "ol.js",
+  "ignore": [
+    ".gitignore",
+    "README.md"
+  ],
+  "devDependencies": {
+    "ol3": "https://github.com/openlayers/ol3.git#master"
+  }
+}
