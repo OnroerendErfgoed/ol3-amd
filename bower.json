@@ -1,5 +1,5 @@
 {
-  "name": "ol3-amdamd-build.json",
+  "name": "ol3-amd",
   "description": "Custom Openlayers 3 build with amd wrapper",
   "version": "0.0.1",
   "main": "ol.js",
