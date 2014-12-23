@@ -5,6 +5,7 @@
   "main": "ol.js",
   "ignore": [
     ".gitignore",
+    "amd-build.json",
     "README.md"
   ],
   "devDependencies": {
