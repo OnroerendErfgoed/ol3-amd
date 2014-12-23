@@ -4,9 +4,9 @@ Used for internal distribution.
 
 The build is done with the new 'task' system in Openlayers: 
 [doc](https://github.com/openlayers/ol3/tree/master/tasks)
-[extra info](http://boundlessgeo.com/2014/10/openlayers-custom-builds-revisited/)
+([extra info](http://boundlessgeo.com/2014/10/openlayers-custom-builds-revisited/))
 
-install dependencies:
+###install dependencies:
 ```
 cd <project dir>
 bower install
@@ -29,4 +29,4 @@ node tasks/build.js ../amd-build.json  ../ol.js
 + Run 'bower update ol3-amd' in projects using this dependency
 
 ##todo:
-+ create separate build scripts for all projects, and set the "exports" parameter in each script with th e correct list.
++ create separate build scripts for all projects, and set the "exports" parameter in each script with the correct list.
