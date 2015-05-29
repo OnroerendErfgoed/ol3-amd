@@ -1,6 +1,6 @@
 {
 	"name": "ol3-amd",
-	"version": "0.0.2",
+	"version": "0.1.0",
   	"description": "Openlayers 3 build with amd wrapper",
   	"repository": {
 		"type": "git",
