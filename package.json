@@ -7,6 +7,6 @@
 		"url": "https://github.com/OnroerendErfgoed/beheersplannen.git"
 	},
   	"devDependencies": {
-    	"openlayers": "~3.1.0"
+    	"openlayers": "~3.5.0"
   	}
 }
