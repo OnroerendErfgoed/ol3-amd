@@ -18,7 +18,6 @@ Custom build is no longer necessary, the build provided with openlayers 3.1.0 ca
 
 ##how to release a new build:
 + Update ol3 using npm
-+ Copy ol.css from <project dir>/node_modules/openlayers/css/ to the <project dir> folder
-+ Copy ol.js and ol-debug.js from <project dir>/node_modules/openlayers/dist/ to the <project dir> folder
++ Copy ol.css, ol-debug.css, ol.js and ol-debug.js from <project dir>/node_modules/openlayers/dist/ to the <project dir> folder
 + Push to git
 + Run 'bower update ol3-amd' in the projects that use this dependency
