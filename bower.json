@@ -7,7 +7,7 @@
     ".bowerrc",
     ".gitignore",
     "README.md",
-    "package.json",
+    "ol-debug.js",
     "node_modules"
   ]
 }
