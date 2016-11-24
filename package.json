@@ -4,10 +4,10 @@
   "description": "Openlayers 3 build with amd wrapper",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OnroerendErfgoed/beheersplannen.git"
+    "url": "https://github.com/OnroerendErfgoed/ol3-amd.git"
   },
   "devDependencies": {
-    "openlayers": "~3.5.0"
+    "openlayers": "~3.19.1"
   },
   "main": "./ol",
   "dojoBuild": "package.js"
